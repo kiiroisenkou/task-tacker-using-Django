@@ -51,17 +51,7 @@ git clone https://github.com/yourusername/django-task-tracker.git
 
 cd django-task-tracker
 
-(Optional but recommended) Create and activate a virtual environment:
 
-python -m venv venv
-# Windows
-
-venv\Scripts\activate
-# macOS/Linux
-
-source venv/bin/activate
-# Install dependencies:
-pip install -r requirements.txt
 # Run migrations:
 python manage.py migrate
 
@@ -69,6 +59,7 @@ python manage.py migrate
 python manage.py runserver
 # Open your browser and go to:
 http://127.0.0.1:8000/
+
 Usage
 
 Navigate to the task list page.
