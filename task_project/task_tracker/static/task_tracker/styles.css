@@ -1,0 +1,146 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #f0f2f5;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #444;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container */
+.form-container {
+  background: #ffffff;
+  padding: 40px 50px;
+  border-radius: 12px;
+  box-shadow: 0 12px 25px rgba(0,0,0,0.1);
+  width: 400px;
+  max-width: 90%;
+  transition: box-shadow 0.3s ease;
+}
+
+.form-container:hover {
+  box-shadow: 0 20px 35px rgba(0,0,0,0.15);
+}
+
+/* Heading */
+.form-container h2 {
+  font-weight: 700;
+  font-size: 28px;
+  color: #222;
+  margin-bottom: 30px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+/* Labels */
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #555;
+  letter-spacing: 0.03em;
+  user-select: none;
+}
+
+/* Inputs, Textarea, Select */
+input[type="text"],
+input[type="date"],
+input[type="datetime-local"],
+textarea,
+select {
+  width: 100%;
+  padding: 14px 18px;
+  margin-bottom: 22px;
+  border-radius: 8px;
+  border: 1.5px solid #d1d9e6;
+  font-size: 1rem;
+  font-family: inherit;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  background: #fafbfc;
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus,
+input[type="datetime-local"]:focus,
+textarea:focus,
+select:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0,123,255,0.3);
+  outline: none;
+  background: #fff;
+}
+
+/* Textarea resizable only vertically */
+textarea {
+  resize: vertical;
+  min-height: 110px;
+}
+
+/* Button */
+button[type="submit"] {
+  width: 100%;
+  padding: 15px 0;
+  background-color: #007bff;
+  border: none;
+  border-radius: 10px;
+  font-weight: 700;
+  color: #fff;
+  font-size: 1.1rem;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.15s ease;
+  user-select: none;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+  transform: scale(1.03);
+}
+
+/* Errors */
+.errorlist {
+  list-style: none;
+  padding-left: 0;
+  margin-top: -18px;
+  margin-bottom: 18px;
+  color: #d93025;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+/* Non-field errors center align */
+.errorlist.nonfield {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Required field star */
+label > span.required {
+  color: #d93025;
+  margin-left: 3px;
+}
+
+/* Reset */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #f0f2f5;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #444;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
